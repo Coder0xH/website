@@ -1,4 +1,5 @@
 const WORDS = [
+    'dexter',
     'which',
     'there',
     'their',
