@@ -19,8 +19,9 @@ const ThisComputerApp: React.FC<ThisComputerProps> = (props) => {
         >
             <div className="site-page">
                 <iframe
-                    src="https://oldgoogle.neocities.org/1998/"
-                    title="google"
+                    // src="https://oldgoogle.neocities.org/1998/"
+                    src="https://memeshort.io"
+                    title="short"
                     width="100%"
                     height="100%"
                 />

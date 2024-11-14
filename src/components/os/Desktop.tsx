@@ -4,7 +4,9 @@ import ShowcaseExplorer from '../applications/ShowcaseExplorer';
 import Doom from '../applications/Doom';
 import OregonTrail from '../applications/OregonTrail';
 import ShutdownSequence from './ShutdownSequence';
-// import ThisComputer from '../applications/ThisComputer';
+import JumpWebsite from '../applications/JumpWebsite';
+import SalukiWebsite from '../applications/SalukiWebsite';
+import ShortWebsite from '../applications/ShortWebiste';
 import Henordle from '../applications/Henordle';
 import Toolbar from './Toolbar';
 import DesktopShortcut, { DesktopShortcutProps } from './DesktopShortcut';
@@ -24,17 +26,35 @@ const APPLICATIONS: {
         component: React.FC<ExtendedWindowAppProps<any>>;
     };
 } = {
-    // computer: {
-    //     key: 'computer',
-    //     name: 'This Computer',
-    //     shortcutIcon: 'computerBig',
-    //     component: ThisComputer,
-    // },
+    jump: {
+        key: 'jump',
+        name: 'Meme Jump',
+        shortcutIcon: 'memeJump',
+        component: JumpWebsite,
+    },
+    saluki: {
+        key: 'saluki',
+        name: 'Saluki',
+        shortcutIcon: 'memeJump',
+        component: SalukiWebsite,
+    },
+    short: {
+        key: 'short',
+        name: 'Meme Short',
+        shortcutIcon: 'memeShort',
+        component: ShortWebsite,
+    },
     showcase: {
         key: 'showcase',
-        name: 'My Showcase',
+        name: 'Yzy Showcase',
         shortcutIcon: 'showcaseIcon',
         component: ShowcaseExplorer,
+    },
+    credits: {
+        key: 'credits',
+        name: 'Credits',
+        shortcutIcon: 'credits',
+        component: Credits,
     },
     trail: {
         key: 'trail',
@@ -59,12 +79,6 @@ const APPLICATIONS: {
         name: 'Henordle',
         shortcutIcon: 'henordleIcon',
         component: Henordle,
-    },
-    credits: {
-        key: 'credits',
-        name: 'Credits',
-        shortcutIcon: 'credits',
-        component: Credits,
     },
 };
 

@@ -3,6 +3,8 @@ import React from 'react';
 import windowResize from './windowResize.png';
 import maximize from './maximize.png';
 import minimize from './minimize.png';
+import memeJump from './memeJump.png';
+import memeShort from './memeShort.png';
 import computerBig from './computerBig.png';
 import computerSmall from './computerSmall.png';
 import myComputer from './myComputer.png';
@@ -23,6 +25,8 @@ const icons = {
     windowResize: windowResize,
     maximize: maximize,
     minimize: minimize,
+    memeJump: memeJump,
+    memeShort: memeShort,
     computerBig: computerBig,
     computerSmall: computerSmall,
     myComputer: myComputer,
