@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from '../general';
-import forHire from '../../assets/pictures/forHireGif.gif';
+// import forHire from '../../assets/pictures/forHireGif.gif';
 import { useLocation, useNavigate } from 'react-router';
 
 export interface VerticalNavbarProps {}
@@ -39,10 +39,15 @@ const VerticalNavbar: React.FC<VerticalNavbarProps> = (props) => {
             <div style={styles.links}>
                 <Link containerStyle={styles.link} to="" text="HOME" />
                 <Link containerStyle={styles.link} to="about" text="ABOUT" />
-                <Link
+                {/* <Link
                     containerStyle={styles.link}
                     to="experience"
                     text="EXPERIENCE"
+                /> */}
+                <Link
+                    containerStyle={styles.link}
+                    to="portfolio"
+                    text="PORTFOLIO"
                 />
                 <Link
                     containerStyle={Object.assign(
@@ -59,18 +64,18 @@ const VerticalNavbar: React.FC<VerticalNavbarProps> = (props) => {
                         <div style={styles.insetLinks}>
                             <Link
                                 containerStyle={styles.insetLink}
-                                to="projects/software"
-                                text="SOFTWARE"
+                                to="projects/jump"
+                                text="JUMP"
                             />
                             <Link
                                 containerStyle={styles.insetLink}
-                                to="projects/music"
-                                text="MUSIC"
+                                to="projects/short"
+                                text="SHORT"
                             />
                             <Link
                                 containerStyle={styles.insetLink}
-                                to="projects/art"
-                                text="ART"
+                                to="projects/more"
+                                text="MORE"
                             />
                         </div>
                     )

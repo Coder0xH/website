@@ -11,9 +11,9 @@ import houseProject from '../../../assets/pictures/projects/audio/houseProject.p
 import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
 import { MusicPlayer } from '../../general';
 
-export interface MusicProjectsProps {}
+export interface ShortProjectsProps {}
 
-const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
+const ShortProjects: React.FC<ShortProjectsProps> = (props) => {
     const [currentSong, setCurrentSong] = useState<string>('');
 
     return (
@@ -221,4 +221,4 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
 
 // const styles: StyleSheetCSS = {};
 
-export default MusicProjects;
+export default ShortProjects;

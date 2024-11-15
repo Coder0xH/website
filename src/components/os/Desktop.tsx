@@ -33,24 +33,24 @@ const APPLICATIONS: {
         shortcutIcon: 'memeJump',
         component: JumpWebsite,
     },
-    saluki: {
-        key: 'uniswap',
-        name: 'Saluki',
-        shortcutIcon: 'memeJump',
-        component: SalukiWebsite,
-    },
-    uniswap: {
-        key: 'uniswap',
-        name: 'Uniswap',
-        shortcutIcon: 'memeJump',
-        component: Uniswap,
-    },
-    short: {
-        key: 'short',
-        name: 'Meme Short',
-        shortcutIcon: 'memeShort',
-        component: ShortWebsite,
-    },
+    // saluki: {
+    //     key: 'uniswap',
+    //     name: 'Saluki',
+    //     shortcutIcon: 'memeJump',
+    //     component: SalukiWebsite,
+    // },
+    // uniswap: {
+    //     key: 'uniswap',
+    //     name: 'Uniswap',
+    //     shortcutIcon: 'memeJump',
+    //     component: Uniswap,
+    // },
+    // short: {
+    //     key: 'short',
+    //     name: 'Meme Short',
+    //     shortcutIcon: 'memeShort',
+    //     component: ShortWebsite,
+    // },
     showcase: {
         key: 'showcase',
         name: 'Infinity Affinity',
@@ -81,12 +81,12 @@ const APPLICATIONS: {
         shortcutIcon: 'scrabbleIcon',
         component: Scrabble,
     },
-    henordle: {
-        key: 'henordle',
-        name: 'Henordle',
-        shortcutIcon: 'henordleIcon',
-        component: Henordle,
-    },
+    // henordle: {
+    //     key: 'henordle',
+    //     name: 'Henordle',
+    //     shortcutIcon: 'henordleIcon',
+    //     component: Henordle,
+    // },
 };
 
 const Desktop: React.FC<DesktopProps> = (props) => {

@@ -8,9 +8,9 @@ import scroll from '../../../assets/pictures/projects/software/scroll.mp4';
 import ResumeDownload from '../ResumeDownload';
 import VideoAsset from '../../general/VideoAsset';
 
-export interface SoftwareProjectsProps {}
+export interface JumpProjectsProps {}
 
-const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
+const JumpProjects: React.FC<JumpProjectsProps> = (props) => {
     return (
         <div className="site-page-content">
             <h1>Software</h1>
@@ -287,4 +287,4 @@ const styles: StyleSheetCSS = {
     },
 };
 
-export default SoftwareProjects;
+export default JumpProjects;

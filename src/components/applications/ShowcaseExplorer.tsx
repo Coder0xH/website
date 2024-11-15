@@ -4,11 +4,12 @@ import Home from '../showcase/Home';
 import About from '../showcase/About';
 import Window from '../os/Window';
 import Experience from '../showcase/Experience';
+import Portfolio from '../showcase/Portfolio';
 import Projects from '../showcase/Projects';
 import Contact from '../showcase/Contact';
-import SoftwareProjects from '../showcase/projects/Software';
-import MusicProjects from '../showcase/projects/Music';
-import ArtProjects from '../showcase/projects/Art';
+import JumpProjects from '../showcase/projects/Jump';
+import ShortProjects from '../showcase/projects/Short';
+import MoreProjects from '../showcase/projects/More';
 import VerticalNavbar from '../showcase/VerticalNavbar';
 import useInitialWindowSize from '../../hooks/useInitialWindowSize';
 
@@ -37,17 +38,18 @@ const ShowcaseExplorer: React.FC<ShowcaseExplorerProps> = (props) => {
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
                         <Route path="/experience" element={<Experience />} />
+                        <Route path="/portfolio" element={<Portfolio />} />
                         <Route path="/projects" element={<Projects />} />
                         <Route path="/contact" element={<Contact />} />
                         <Route
-                            path="/projects/software"
-                            element={<SoftwareProjects />}
+                            path="/projects/jump"
+                            element={<JumpProjects />}
                         />
                         <Route
-                            path="/projects/music"
-                            element={<MusicProjects />}
+                            path="/projects/short"
+                            element={<ShortProjects />}
                         />
-                        <Route path="/projects/art" element={<ArtProjects />} />
+                        <Route path="/projects/more" element={<MoreProjects />} />
                     </Routes>
                 </div>
             </Router>
