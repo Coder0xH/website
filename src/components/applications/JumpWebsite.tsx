@@ -15,7 +15,7 @@ const ThisComputerApp: React.FC<ThisComputerProps> = (props) => {
             width={initWidth}
             height={initHeight}
             windowBarIcon="computerSmall"
-            windowTitle="This Computer"
+            windowTitle="MEME JUMP"
             closeWindow={props.onClose}
             onInteract={props.onInteract}
             minimizeWindow={props.onMinimize}
@@ -28,6 +28,10 @@ const ThisComputerApp: React.FC<ThisComputerProps> = (props) => {
                     title="jump"
                     width="100%"
                     height="100%"
+                    style={{
+                        border: 'none',
+                        overflow: 'auto',
+                    }}
                 />
                 {/* <div style={}>
                     <DesktopShortcut

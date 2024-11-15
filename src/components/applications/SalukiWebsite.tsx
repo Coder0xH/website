@@ -10,7 +10,7 @@ const ThisComputerApp: React.FC<ThisComputerProps> = (props) => {
     return (
         <Window
             top={20}
-            left={50}
+            left={80}
             width={initWidth}
             height={initHeight}
             windowBarIcon="computerSmall"

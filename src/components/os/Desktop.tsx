@@ -53,7 +53,7 @@ const APPLICATIONS: {
     },
     showcase: {
         key: 'showcase',
-        name: 'Yzy Showcase',
+        name: 'Infinity Affinity',
         shortcutIcon: 'showcaseIcon',
         component: ShowcaseExplorer,
     },

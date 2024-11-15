@@ -16,20 +16,20 @@ const About: React.FC<AboutProps> = (props) => {
             <br />
             <div className="text-block">
                 <p>
-                    I'm a software engineer currently working at YZY! In May of
-                    2022 I graduated from Rensselaer Polytechnic Institute with
-                    my BS in Computer Science.
+                    Our team consists of experienced professionals with overseas
+                    academic backgrounds, having held key roles at leading
+                    companies like Tencent and Gate.io. We combine strong
+                    technical expertise and strategic insight to drive
+                    innovation and the successful incubation of Web3.0 products.
                 </p>
                 <br />
                 <p>
-                    Thank you for taking the time to check out my portfolio. I
+                    {/* Thank you for taking the time to check out my portfolio. I
                     really hope you enjoy exploring it as much as I enjoyed
-                    building it. If you have any questions or comments, feel
+                    building it. If you have any questions or comments, feel */}
                     free to contact me using{' '}
                     <Link to="/contact">this form</Link> or shoot me an email at{' '}
-                    <a href="mailto:coder0xh@gmail.com">
-                        coder0xh@gmail.com
-                    </a>
+                    <a href="mailto:coder0xh@gmail.com">coder0xh@gmail.com</a>
                 </p>
             </div>
             <ResumeDownload />

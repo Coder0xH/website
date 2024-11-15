@@ -1,5 +1,4 @@
 import React from 'react';
-// import DesktopShortcut from '../os/DesktopShortcut';
 import Window from '../os/Window';
 
 export interface ThisComputerProps extends WindowAppProps {}
@@ -11,7 +10,7 @@ const ThisComputerApp: React.FC<ThisComputerProps> = (props) => {
     return (
         <Window
             top={20}
-            left={20}
+            left={60}
             width={initWidth}
             height={initHeight}
             windowBarIcon="computerSmall"
@@ -27,6 +26,10 @@ const ThisComputerApp: React.FC<ThisComputerProps> = (props) => {
                     title="uniswap"
                     width="100%"
                     height="100%"
+                    style={{
+                        border: 'none',
+                        overflow: 'auto',
+                    }}
                 />
             </div>
         </Window>
