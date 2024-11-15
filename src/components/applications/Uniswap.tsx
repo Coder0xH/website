@@ -10,33 +10,24 @@ const ThisComputerApp: React.FC<ThisComputerProps> = (props) => {
 
     return (
         <Window
-            top={30}
-            left={80}
+            top={20}
+            left={20}
             width={initWidth}
             height={initHeight}
             windowBarIcon="computerSmall"
-            windowTitle="This Computer"
+            windowTitle="Uniswap"
             closeWindow={props.onClose}
             onInteract={props.onInteract}
             minimizeWindow={props.onMinimize}
         >
             <div className="site-page">
                 <iframe
-                    // src="https://oldgoogle.neocities.org/1998/"
-                    src="https://memejump.io"
-                    // src="https://app.uniswap.org/swap"
-                    title="jump"
+                    src="https://app.uniswap.org/swap"
+                    // src="https://excalidraw.com/"
+                    title="uniswap"
                     width="100%"
                     height="100%"
                 />
-                {/* <div style={}>
-                    <DesktopShortcut
-                        icon="computerBig"
-                        invertText
-                        shortcutName={'Computer Details'}
-                        onOpen={() => {}}
-                    />
-                </div> */}
             </div>
         </Window>
     );

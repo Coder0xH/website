@@ -6,6 +6,7 @@ import OregonTrail from '../applications/OregonTrail';
 import ShutdownSequence from './ShutdownSequence';
 import JumpWebsite from '../applications/JumpWebsite';
 import SalukiWebsite from '../applications/SalukiWebsite';
+import Uniswap from '../applications/Uniswap';
 import ShortWebsite from '../applications/ShortWebiste';
 import Henordle from '../applications/Henordle';
 import Toolbar from './Toolbar';
@@ -33,10 +34,16 @@ const APPLICATIONS: {
         component: JumpWebsite,
     },
     saluki: {
-        key: 'saluki',
+        key: 'uniswap',
         name: 'Saluki',
         shortcutIcon: 'memeJump',
         component: SalukiWebsite,
+    },
+    uniswap: {
+        key: 'uniswap',
+        name: 'Uniswap',
+        shortcutIcon: 'memeJump',
+        component: Uniswap,
     },
     short: {
         key: 'short',
