@@ -8,7 +8,7 @@ import memeShort from './memeShort.png';
 import computerBig from './computerBig.png';
 import computerSmall from './computerSmall.png';
 import myComputer from './myComputer.png';
-import showcaseIcon from './showcaseIcon.png';
+import showcaseIcon from './showcaseIcon.jpg';
 import doomIcon from './doomIcon.png';
 import henordleIcon from './henordleIcon.png';
 import credits from './credits.png';

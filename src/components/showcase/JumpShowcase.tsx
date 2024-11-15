@@ -1,21 +1,23 @@
 import React from 'react';
-import printer from '../../assets/resume/printer.gif';
-import Resume from '../../assets/resume/Henry_Heffernan_S22_Resume.pdf';
+// import printer from '../../assets/resume/printer.gif';
+// import Resume from '../../assets/resume/Henry_Heffernan_S22_Resume.pdf';
+import Jump from '../../assets/jump/jump-showcase.jpg';
 
-export interface ResumeDownloadProps {
+export interface JumpShowcaseProps {
     altText?: string;
 }
 
-const ResumeDownload: React.FC<ResumeDownloadProps> = ({ altText }) => {
+const JumpShowcaseload: React.FC<JumpShowcaseProps> = ({ altText }) => {
     return (
         <div style={styles.resumeContainer}>
-            <img style={styles.resumePrinter} alt="" src={printer} />
+            {/* <img style={styles.resumePrinter} alt="" src={printer} />
             <div style={styles.resumeContainerText}>
                 <h3>{altText ? altText : 'Looking for my resume?'}</h3>
                 <a rel="noreferrer" target="_blank" href={Resume}>
                     <p>Click here to download it!</p>
                 </a>
-            </div>
+            </div> */}
+            <img style={styles.resumePrinter} alt="" src={Jump} />
         </div>
     );
 };
@@ -35,10 +37,12 @@ const styles: StyleSheetCSS = {
         flexDirection: 'column',
     },
     resumePrinter: {
-        width: 56,
-        height: 48,
+        // width: 56,
+        // height: 48,
+        maxWidth: '100%',
+        height: 'auto',
         paddingRight: 24,
     },
 };
 
-export default ResumeDownload;
+export default JumpShowcaseload;

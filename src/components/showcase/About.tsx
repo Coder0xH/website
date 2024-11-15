@@ -1,8 +1,8 @@
 import React from 'react';
-import me from '../../assets/pictures/workingAtComputer.jpg';
-import meNow from '../../assets/pictures/currentme.jpg';
+// import me from '../../assets/pictures/workingAtComputer.jpg';
+// import meNow from '../../assets/pictures/currentme.jpg';
 import { Link } from 'react-router-dom';
-import ResumeDownload from './ResumeDownload';
+// import ResumeDownload from './JumpShowcase';
 
 export interface AboutProps {}
 
@@ -32,8 +32,8 @@ const About: React.FC<AboutProps> = (props) => {
                     <a href="mailto:coder0xh@gmail.com">coder0xh@gmail.com</a>
                 </p>
             </div>
-            <ResumeDownload />
-            <div className="text-block">
+            {/* <ResumeDownload /> */}
+            {/* <div className="text-block">
                 <h3>About Me</h3>
                 <br />
                 <p>
@@ -72,7 +72,7 @@ const About: React.FC<AboutProps> = (props) => {
                     . We worked on many projects together, including chat bots,
                     multiple game projects, apps, and more. One of these
                     projects is viewable on my{' '}
-                    <Link to="/projects/software">Software Projects</Link> page.
+                    <Link to="/projects/jump">Software Projects</Link> page.
                 </p>
                 <br />
                 <p>
@@ -153,36 +153,36 @@ const About: React.FC<AboutProps> = (props) => {
                         henryheffernan@gmail.com
                     </a>
                 </p>
-            </div>
+            </div> */}
         </div>
     );
 };
 
-const styles: StyleSheetCSS = {
-    contentHeader: {
-        marginBottom: 16,
-        fontSize: 48,
-    },
-    image: {
-        height: 'auto',
-        width: '100%',
-    },
-    topImage: {
-        height: 'auto',
-        width: '100%',
-        marginBottom: 32,
-    },
-    verticalImage: {
-        alignSelf: 'center',
-        // width: '80%',
-        marginLeft: 32,
-        flex: 0.8,
+// const styles: StyleSheetCSS = {
+//     contentHeader: {
+//         marginBottom: 16,
+//         fontSize: 48,
+//     },
+//     image: {
+//         height: 'auto',
+//         width: '100%',
+//     },
+//     topImage: {
+//         height: 'auto',
+//         width: '100%',
+//         marginBottom: 32,
+//     },
+//     verticalImage: {
+//         alignSelf: 'center',
+//         // width: '80%',
+//         marginLeft: 32,
+//         flex: 0.8,
 
-        alignItems: 'center',
-        // marginBottom: 32,
-        textAlign: 'center',
-        flexDirection: 'column',
-    },
-};
+//         alignItems: 'center',
+//         // marginBottom: 32,
+//         textAlign: 'center',
+//         flexDirection: 'column',
+//     },
+// };
 
 export default About;

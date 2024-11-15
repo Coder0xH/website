@@ -1,35 +1,80 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 // @ts-ignore
-import house from '../../../assets/audio/house_master.mp3';
+// import house from '../../../assets/audio/house_master.mp3';
 // @ts-ignore
-import edge from '../../../assets/audio/edge_unmastered.mp3';
+// import edge from '../../../assets/audio/edge_unmastered.mp3';
 // @ts-ignore
-import dnb from '../../../assets/audio/break.mp3';
+// import dnb from '../../../assets/audio/break.mp3';
 // @ts-ignore
-import dnbDrums from '../../../assets/audio/dnb_drop_drums.mp3';
-import houseProject from '../../../assets/pictures/projects/audio/houseProject.png';
-import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
-import { MusicPlayer } from '../../general';
+// import dnbDrums from '../../../assets/audio/dnb_drop_drums.mp3';
+// import houseProject from '../../../assets/pictures/projects/audio/houseProject.png';
+// import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
+// import { MusicPlayer } from '../../general';
+import ShortShowcase from '../ShortShowcase';
 
 export interface ShortProjectsProps {}
 
 const ShortProjects: React.FC<ShortProjectsProps> = (props) => {
-    const [currentSong, setCurrentSong] = useState<string>('');
+    // const [currentSong, setCurrentSong] = useState<string>('');
 
     return (
         <div className="site-page-content">
-            <h1>Music & Sound</h1>
-            <h3>Ventures</h3>
+            <h1>MEME & SHORT</h1>
+            <h3>Project</h3>
             <br />
+            <p>
+                Memeshort is an innovative Web3 application that seamlessly
+                integrates the allure of short-form dramas with the dynamic
+                energy of meme culture.
+            </p>
+            <br />
+            <ShortShowcase />
             <div className="text-block">
                 <p>
-                    Music has been a passion of mine for my whole life. When I
-                    was 15 years old, I downloaded FL Studio and started to
-                    produce my own music. I found a wonderful community on
-                    reddit called r/edmproduction and in 2016 created the now
-                    popular discord server EDM Production with over 14k members.
+                    Designed to offer an engaging and immersive user experience,
+                    Memeshort features 1-minute drama episodes, 3-minute
+                    interactive gameplay sessions, and a team-based feedback
+                    system. This unique combination fosters a highly engaging
+                    environment where users can enjoy compelling content
+                    individually or collaboratively, enhancing both personal and
+                    social experiences. The interactive "Fun gameplay" mode,
+                    infused with meme-driven challenges, offers a continuous
+                    sense of excitement and satisfaction. Whether users are
+                    exploring the app alone or with a team, Memeshort delivers a
+                    captivating, binge-worthy experience that keeps them
+                    immersed in a cycle of entertainment and interaction.
+                    Through its innovative approach, Memeshort provides a
+                    perfect blend of entertainment, community, and engagement,
+                    empowering users to connect, play, and enjoy Web3-powered
+                    content in a new and exciting way.
                 </p>
                 <br />
+                <h3>Links:</h3>
+                <ul>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://t.me/MemeShorts_bot/memeshort"
+                        >
+                            <p>
+                                <b>[Telegram Bot]</b> - memeshort_bot
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://x.com/MemeShortbot"
+                        >
+                            <p>
+                                <b>[X]</b> - x.com/MemeShortbot
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                {/* <br />
                 <p>
                     I don't release the music that I make publicly as I not only
                     find it difficult to finish songs, but also it's not a
@@ -43,9 +88,9 @@ const ShortProjects: React.FC<ShortProjectsProps> = (props) => {
                     Below are some more recent Musical Endeavors I've been
                     working on. I hope you enjoy the music and enjoy the stories
                     behind each of the tracks.
-                </p>
+                </p> */}
             </div>
-            <h2>Exploring house</h2>
+            {/* <h2>Exploring house</h2>
             <br />
             <p>
                 In 2020 I went through a phase of really enjoying house. Some of
@@ -214,7 +259,7 @@ const ShortProjects: React.FC<ShortProjectsProps> = (props) => {
                 and I'm very excited to see what I can do for the future. Thanks
                 for listening I hope you enjoyed!
             </p>
-            <br />
+            <br /> */}
         </div>
     );
 };

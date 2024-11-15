@@ -7,40 +7,55 @@ export interface CreditsProps extends WindowAppProps {}
 
 const CREDITS = [
     {
-        title: 'Engineering & Design',
-        rows: [['Dexter Ellis', 'All']],
-    },
-    {
-        title: 'Modeling & Texturing',
+        title: 'Engineering',
         rows: [
-            ['Henry Heffernan', 'Texturing, Composition, & UV'],
-            ['Mickael Boitte', 'Computer Model'],
-            ['Sean Nicolas', 'Environment Models'],
+            ['Dexter Ellis', 'Frontend & Backend'],
+            ['Cyrus', 'Frontend'],
+            ['Calvin', 'Frontend'],
         ],
     },
     {
-        title: 'Sound Design',
+        title: 'Design',
         rows: [
-            ['Henry Heffernan', 'Mixing, Composition, & Foley'],
-            ['Sound Cassette', 'Office Ambience'],
-            ['Windows 95 Startup Sound', 'Microsoft'],
+            ['Fenix', 'PM'],
+            ['Rhea', 'UI'],
         ],
     },
     {
-        title: 'Special Thanks',
+        title: 'Boss',
         rows: [
-            ['Bruno Simon', 'SimonDev'],
-            ['Lorelei Kravinsky', 'Scott Bass'],
-            ['Trey Briccetti', 'Mom, Dad & Angela'],
+            ['Thomas', 'CEO'],
+            ['Carpe', 'CTO'],
+            ['Nirvana', 'OG'],
         ],
     },
     {
-        title: 'Inspiration',
-        rows: [
-            ['Bruno Simon', 'Jesse Zhou'],
-            ['Pink Yellow', 'Vivek Patel'],
-        ],
+        title: 'Author',
+        rows: [['Henry Heffernan', 'All']],
     },
+    // {
+    //     title: 'Sound Design',
+    //     rows: [
+    //         ['Henry Heffernan', 'Mixing, Composition, & Foley'],
+    //         ['Sound Cassette', 'Office Ambience'],
+    //         ['Windows 95 Startup Sound', 'Microsoft'],
+    //     ],
+    // },
+    // {
+    //     title: 'Special Thanks',
+    //     rows: [
+    //         ['Bruno Simon', 'SimonDev'],
+    //         ['Lorelei Kravinsky', 'Scott Bass'],
+    //         ['Trey Briccetti', 'Mom, Dad & Angela'],
+    //     ],
+    // },
+    // {
+    //     title: 'Inspiration',
+    //     rows: [
+    //         ['Bruno Simon', 'Jesse Zhou'],
+    //         ['Pink Yellow', 'Vivek Patel'],
+    //     ],
+    // },
 ];
 
 const Credits: React.FC<CreditsProps> = (props) => {
@@ -86,7 +101,7 @@ const Credits: React.FC<CreditsProps> = (props) => {
                 style={styles.credits}
             >
                 <h2>Credits</h2>
-                <p>henryheffernan.com, 2022</p>
+                <p>Infinity Affinity, 2024</p>
                 <br />
                 <br />
                 <br />

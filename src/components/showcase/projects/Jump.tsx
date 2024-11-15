@@ -1,54 +1,54 @@
 import React from 'react';
 // @ts-ignore
-import saga from '../../../assets/pictures/projects/software/saga.mp4';
+// import saga from '../../../assets/pictures/projects/software/saga.mp4';
 // @ts-ignore
-import computer from '../../../assets/pictures/projects/software/computer.mp4';
+// import computer from '../../../assets/pictures/projects/software/computer.mp4';
 // @ts-ignore
-import scroll from '../../../assets/pictures/projects/software/scroll.mp4';
-import ResumeDownload from '../ResumeDownload';
-import VideoAsset from '../../general/VideoAsset';
+// import scroll from '../../../assets/pictures/projects/software/scroll.mp4';
+import JumpShowcase from '../JumpShowcase';
+import JumpFunction from '../JumpFunction';
+// import VideoAsset from '../../general/VideoAsset';
 
 export interface JumpProjectsProps {}
 
 const JumpProjects: React.FC<JumpProjectsProps> = (props) => {
     return (
         <div className="site-page-content">
-            <h1>Software</h1>
-            <h3>Projects</h3>
+            <h1>MEME & JUMP</h1>
+            <h3>Project</h3>
             <br />
             <p>
-                Below are some of my favorite software projects I have worked on
-                over the last few years.
+                Meme Jump is a dynamic and entertaining game designed to provide
+                users with a stress-relieving and rewarding “play-to-earn”
+                experience.
             </p>
             <br />
-            <ResumeDownload />
+            <JumpShowcase />
             <br />
             <div className="text-block">
-                <h2>henryheffernan.com</h2>
+                <h2>Website - memejump.io</h2>
                 <br />
                 <p>
-                    henryheffernan.com is my portfolio website, and also the
-                    website you are on right now. This project was an absolute
-                    joy to make and challenged me both technically and
-                    creatively. Early in 2022, I knew I wanted to make an
-                    interactive portfolio to aid my job search. I eventually got
-                    the idea for this site around early February and began
-                    development early March. I've been developing it alongside
-                    my last semester at school and if you are reading this, it's
-                    pretty much done!
+                    By combining interactive mini-games with a unique
+                    advertising ecosystem, Meme Jump introduces a refreshing
+                    approach to digital engagement on Web3. Our mission is to
+                    create a platform that captivates users while also opening
+                    the door to innovative opportunities within the
+                    decentralized digital landscape.
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <VideoAsset src={computer} />
-                    <p style={styles.caption}>
+                    {/* <VideoAsset src={computer} /> */}
+                    <JumpFunction />
+                    {/* <p style={styles.caption}>
                         <sub>
                             <b>Figure 1:</b> Blender Scene of the 3D website.
                             The scene from Blender was baked and exported in a
                             GLTF format.
                         </sub>
-                    </p>
+                    </p> */}
                 </div>
-                <p>
+                {/* <p>
                     Now, a quick technical breakdown of the site. The website is
                     split into two parts, the 3D site, and the 2D OS site. The
                     3D site uses Three.js to render the scene and renders the 2D
@@ -65,6 +65,22 @@ const JumpProjects: React.FC<JumpProjectsProps> = (props) => {
                     the 2D site is accomplished using a CSS renderer provided by
                     Three.js that transforms the html of the 2D site with 3D CSS
                     transforms to give the illusion of three dimensionality.
+                </p> */}
+                <p>
+                    Through high-quality mini-games, Meme Jump offers an
+                    immersive and enjoyable environment where users can earn
+                    rewards, connect with others, and explore Web3 concepts in a
+                    fun, accessible way. This approach transforms ordinary
+                    gameplay into an engaging experience that fosters user
+                    interaction and community building on Telegram. By
+                    integrating play-to-earn elements, Meme Jump not only
+                    provides entertainment but also enables users to benefit
+                    from their engagement, reinforcing the value of their time
+                    and activity on the platform. With its seamless integration
+                    of social and financial incentives, Meme Jump serves as a
+                    bridge between traditional gaming and the Web3 ecosystem,
+                    empowering users to discover new possibilities in a
+                    decentralized world.
                 </p>
                 <br />
                 <h3>Links:</h3>
@@ -73,10 +89,10 @@ const JumpProjects: React.FC<JumpProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://henryheffernan.com"
+                            href="https://t.me/memejump_bot/memejump?startapp=GZEMUAGT"
                         >
                             <p>
-                                <b>[3D Site]</b> - henryheffernan.com
+                                <b>[Telegram Bot]</b> - memejump_bot
                             </p>
                         </a>
                     </li>
@@ -84,10 +100,10 @@ const JumpProjects: React.FC<JumpProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://henryheffernan.vercel.app/"
+                            href="https://x.com/TONmemejump"
                         >
                             <p>
-                                <b>[OS Site]</b> - henryheffernan.vercel.app
+                                <b>[X]</b> - x.com/TONmemejump
                             </p>
                         </a>
                     </li>
@@ -98,23 +114,12 @@ const JumpProjects: React.FC<JumpProjectsProps> = (props) => {
                             href="https://github.com/henryjeff/portfolio-website"
                         >
                             <p>
-                                <b>[GitHub]</b> - 3D Site Repository
-                            </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://github.com/henryjeff/portfolio-inner-site"
-                        >
-                            <p>
-                                <b>[GitHub]</b> - OS Site Repository
+                                <b>[Website]</b> - Meme Jump Website
                             </p>
                         </a>
                     </li>
                 </ul>
-                <p>
+                {/* <p>
                     I'm skipping over a lot of details in exchange for brevity,
                     but I do plan on doing a more in depth breakdown for those
                     interested sometime in the future. To get updates with that
@@ -126,9 +131,9 @@ const JumpProjects: React.FC<JumpProjectsProps> = (props) => {
                     >
                         @henryheffernan
                     </a>
-                </p>
+                </p> */}
             </div>
-            <div className="text-block">
+            {/* <div className="text-block">
                 <h2>Guntattchment Saga The Sequel</h2>
                 <br />
                 <p>
@@ -202,8 +207,8 @@ const JumpProjects: React.FC<JumpProjectsProps> = (props) => {
                     state and so there is no demo available online. If this ever
                     changes, however, a link to the game will be added here.
                 </p>
-            </div>
-            <div className="text-block">
+            </div> */}
+            {/* <div className="text-block">
                 <h2>Skip the Scroll</h2>
                 <br />
                 <p>
@@ -271,20 +276,20 @@ const JumpProjects: React.FC<JumpProjectsProps> = (props) => {
                     time. If you like it, feel free to star it on GitHub and
                     rate it on the Chrome web store.
                 </p>
-            </div>
-            <ResumeDownload />
+            </div> */}
+            {/* <ResumeDownload /> */}
         </div>
     );
 };
 
-const styles: StyleSheetCSS = {
-    video: {
-        width: '100%',
-        padding: 12,
-    },
-    caption: {
-        width: '80%',
-    },
-};
+// const styles: StyleSheetCSS = {
+//     video: {
+//         width: '100%',
+//         padding: 12,
+//     },
+//     caption: {
+//         width: '80%',
+//     },
+// };
 
 export default JumpProjects;

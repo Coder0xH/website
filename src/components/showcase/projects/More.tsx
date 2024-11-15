@@ -1,39 +1,47 @@
 import React from 'react';
 
-import girlRun from '../../../assets/pictures/projects/art/girl-run.gif';
+// import girlRun from '../../../assets/pictures/projects/art/girl-run.gif';
+import SundayNFT from '../SundayNFT';
 
 export interface MoreProjectsProps {}
 
 const MoreProjects: React.FC<MoreProjectsProps> = (props) => {
     return (
         <div className="site-page-content">
-            <h1>Art & Design</h1>
-            <h3>Endeavors</h3>
-            <br />
+            <h1>MORE</h1>
+            <h3>Projects</h3>
             <div className="text-block">
                 <p>
-                    While I love programming and software development, Art,
-                    Design, and Animation will always hold a special place in my
-                    heart.
-                </p>
-                <br />
-                <p>
-                    Here are a few projects/things I've done over the years to
-                    keep the artistic side of me alive. I'm always looking to
-                    push myself creatively and learn new things.
+                    Here is a brief overview of previous projects, reflecting a
+                    focus on practical implementation and consistent results.
                 </p>
             </div>
             <div className="text-block">
-                <h2>Pixel Art and Animation</h2>
+                <h2>Sunday NFT</h2>
+                <br />
+                <SundayNFT />
                 <br />
                 <p>
-                    In high school, I started learning how to draw and animate
-                    pixel art after becoming interested in video game
-                    development. As I worked on making games over the years, I
-                    learned so much about pixel art and fell in love with
-                    animation.
+                    Sunday NFT is an innovative NFT marketplace designed for the
+                    next generation of digital asset trading. Built with user
+                    experience and security at its core, Sunday NFT offers a
+                    seamless platform for creators and collectors alike to buy,
+                    sell, and trade a vast array of digital assets. From unique
+                    digital collectibles to groundbreaking artwork and other
+                    tokenized assets, the marketplace fosters a thriving
+                    community of artists, collectors, and investors. Equipped
+                    with advanced search and filtering tools, Sunday NFT
+                    simplifies the discovery process, allowing users to easily
+                    find and invest in assets that resonate with them. With
+                    features such as wallet integration, secure transactions,
+                    and a commitment to supporting emerging artists, Sunday NFT
+                    positions itself as a key player in the expanding NFT
+                    ecosystem. As the digital landscape evolves, Sunday NFT aims
+                    to bridge the gap between creators and audiences, providing
+                    a space where the true value of digital ownership can be
+                    realized.
                 </p>
-                <br />
+                {/* <br />
                 <div className="captioned-image">
                     <img src={girlRun} alt="" />
                     <p>
@@ -99,7 +107,7 @@ const MoreProjects: React.FC<MoreProjectsProps> = (props) => {
                     have some project plans and ideas in the works. Expect
                     updates to this page as I dive back into the world of pixel
                     art!
-                </p>
+                </p> */}
                 {/* <h3> Screen record time-lapses and make gifs</h3> */}
             </div>
         </div>
